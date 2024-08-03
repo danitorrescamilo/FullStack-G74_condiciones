@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 2 | Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Haz click en <span style="color: red;">Super Mario</span></h1>
+    </header>
+    <main>
+        <!-- PARTE 1 -->
+        <section class="cardMario">
+            <a href="#"><img src="./assets/img/supermario.jpg" alt="mariobros" id="mariobros" /></a>
+        </section>
+
+        <!-- PARTE 2 -->
+        <section class="cardBoxes">
+            <h2>ELIGE AHORA <span style="color: red;">TUS STICKERS</span></h2>
+            <div class="targets">
+                <div class="target">
+                    <img src="./assets/img/mario.jpg" alt="Stickers Uno">
+                    <p>Stickers Mario</p>
+                    <input id="elInput-1" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="target">
+                    <img src="./assets/img/luigi.jpg" alt="Stickers Dos">
+                    <p>Stickers Luigi</p>
+                    <input id="elInput-2" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="target">
+                    <img src="./assets/img/yoshi.jpg" alt="Stickers Tres">
+                    <p>Stickers Yoshi</p>
+                    <input id="elInput-3" type="number" min="0" max="10" value="0">
+                </div>
+            </div>
+            <p id="txt-verificador"></p>
+            <button id="btn-verificador">Revisar</button>
+        </section>
+
+         <!-- PARTE 3 -->
+        <section class="cardBoxes">
+            <h2>INGRESA <span style="color: red;">TU PASSWORD</span></h2>
+            <div class="elPass">
+                <select name="digito-0" id="digito-0">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito-1" id="digito-1">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito-2" id="digito-2">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button id="btn-ingresar">Ingresar</button>
+            <p id="txt-password"></p>
+        </section>
+
+    </main> 
+
+
+    <script src="./assets/js/app.js"</section></script>
+</body>
+
+</html>
